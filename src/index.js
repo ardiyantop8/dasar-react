@@ -3,12 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import HelloComponent from './components/HelloComponent';
+// import HelloComponent from './components/HelloComponent';            /* ini untuk belajar stateless component */
+// import StateFullComponent from './container/StateFullComponent';        /* ini untuk belajar statefull component */
+// import YouTubeComp from './components/YoutubeComp/YouTubeComp';
+import Home from './container/Home/Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HelloComponent />
+    <Home />
   </React.StrictMode>
 );
 
