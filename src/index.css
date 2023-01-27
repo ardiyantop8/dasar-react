@@ -22,7 +22,6 @@ code {
 
 @layer components {
   .card {
-    /* border: 1px solid #eee; */
     background-color: theme('colors.white');
     border-radius: theme('borderRadius.lg');
     padding: theme('spacing.6');

@@ -1,22 +1,28 @@
-import React from 'react';
-import YouTubeComp from '../../components/YoutubeComp/YouTubeComp';
+import React, {Component} from 'react';
+// import YouTubeComp from '../../components/YoutubeComp/YouTubeComp'; 
 import '../../components/YoutubeComp/YouTubeComp.css';
-import img1 from '../../assets/2.jpg';
-import img2 from '../../assets/react.png';
+// import img1 from '../../assets/2.jpg';
+// import img2 from '../../assets/react.png';
+import Product from '../Product/Product';
 
 
-class Home extends React.Component {
+class Home extends Component {
   render() {
       return (
-        <div className="card mx-2 bg-slate-100">
-            <h1 className="title px-2">Youtube Component</h1>
+        <div className=" mx-2 bg-slate-100 ">
+            {/* <h1 className="title px-2">Youtube Component</h1>
             <hr className="mx-2" /><br />
-            <YouTubeComp time="7.14" title="Video Awal" desc="Tutorial Awal Component" img={img1}/>
-            <YouTubeComp time="5.15" title="Video Kedua" desc="Tutorial StateLess Component" img={img1}/>
-            <YouTubeComp time="6.16" title="Video Ketiga" desc="Tutorial StateFull Component" img={img2}/>
-            <YouTubeComp time="8.16" title="Video Keempat" desc="Tutorial Props Part 1 React" img={img1}/>
-            <YouTubeComp time="3.13" title="Video Kelima" desc="Tutorial Props Part 2 React" img={img2}/>
+            <YouTubeComp time="7:14" title="Tutorial React JS - Bagian 1" desc="12k x ditonton 60 hari lalu" img={img1}/>
+            <YouTubeComp time="5:15" title="Tutorial React JS - Bagian 2" desc="3k x ditonton 3 hari lalu" img={img1}/>
+            <YouTubeComp time="6:16" title="Tutorial React JS - Bagian 3" desc="100 x ditonton 1 hari lalu" img={img2}/>
+            <YouTubeComp time="8:16" title="Tutorial React JS - Bagian 4" desc="500 x ditonton 3 hari lalu" img={img1}/>
+            <YouTubeComp  img={img2}/> */}
+            
+            <p>Counter</p>
+            <hr />
+            <Product/>
         </div>
+
     )
   }
 }

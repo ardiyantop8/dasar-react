@@ -1,6 +1,8 @@
 .youtube-wrapper {
+
     display: inline-block;
     width: 210px;
+    height: 255px;
     box-sizing:border-box;
     margin-right: 12px;
     /* border: 1px solid black; */
@@ -8,14 +10,15 @@
     margin-left: 5px;
     margin-top: 5px;
     /* padding: 5px; */
-    
+    margin-bottom : 40px;
 }
 
 .img-thumb {
     width:100%;
-    height: 118px;
+    height: 80px;
     overflow: hidden;
     position: relative;
+    margin-bottom: 10px;
 }
 
 .img-thumb img {
@@ -34,18 +37,20 @@ p.time {
     padding: 4px;
     border-radius: 4px;
     font-size:12px;
-    font-weight: 500;
+    font-weight: 100;
 }
 
-.title {
-    font-size: 14px;
+.Judul {
+    font-size: 19px;
     font-weight: 600;
     text-transform: uppercase;
     margin:0px;
-    margin-top: 10px;
-    color: #2d2d2d;;
+    /* margin-top: 10px; */
+    /* padding-top:10px; */
+    color: #2d2d2d;
 }
 
 .desc {
-    color: #c6c6c6;
+    padding-top:8px;
+    color: #5F6368;
 }

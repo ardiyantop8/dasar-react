@@ -1,0 +1,116 @@
+.card {
+    width: 450px;
+    padding: 10px;
+    margin: 10px;
+    /* padding-bottom: 20px; */
+    text-align: center;
+    position:static;
+}
+.header {
+    background:#68c93c;
+    display: flex;
+    width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 40px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 20px;
+    margin-bottom: -20px;
+}
+
+.trolley {
+    position: relative;
+    padding-left:280px;
+    
+    /* align-items: flex-end; */
+    /* align-content: center; */
+}
+
+.trolley img {
+    width: 30px;
+}
+
+.count {
+    background: #2d3c8d;
+    padding: 10px;
+    padding-bottom: 16px;
+    border-radius: 50%;
+    min-width: 10px;
+    height: 10px;
+    line-height: 10px;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    position: absolute;
+    bottom: 41px;
+    left: 268px;
+}
+
+.card-product {
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    padding: 10px;
+    width: 400px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding-bottom:5px;
+    margin: 20px;
+    
+}
+
+.logo {
+    width: 60px;
+    height: 20px;
+    padding-bottom: 80px;
+}
+
+.minus {
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: #2d3c8d;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 10px;
+    color: white  ;
+    box-shadow: 10px;
+    width: 50px;
+
+}
+.plus {
+    border: 1px solid white;
+    width: 50px;
+    border-radius: 8px;
+    border-radius: 8px;
+    background-color: #2d3c8d;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 10px;
+    color: white;
+    box-shadow: 10px;
+}
+
+.countbarang {
+    font-size: 16px;
+    font-weight:bold;
+    text-align: center;
+    /* background-color: white; */
+    /* border-radius: 7px; */
+    /* border-color: darkgray; */
+    /* border- */
+}
+
+.product-title {
+    color: black;
+    font-weight: bold;
+}
+
+.product-price {
+    color: #f4A338;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text-xl {
+    font-size: 26px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
