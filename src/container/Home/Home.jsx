@@ -4,7 +4,8 @@ import '../../components/YoutubeComp/YouTubeComp.css';
 // import img1 from '../../assets/2.jpg';
 // import img2 from '../../assets/react.png';
 // import Product from '../Product/Product';
-import LifeCycleComp from '../LifeCycleComp/LifeCycleComp';
+// import LifeCycleComp from '../LifeCycleComp/LifeCycleComp';
+import BlogPost from '../BlogPost/BlogPost'
 
 
 class Home extends Component {
@@ -32,12 +33,17 @@ class Home extends Component {
             {/* <p>Counter</p>
             <hr />
             <Product/> */}
-            <p>Life Cycle Component</p>
+
+            {/* <p>Life Cycle Component</p>
             <hr />
             {
               this.state.showComponent ?
               <LifeCycleComp></LifeCycleComp> : null
-            }
+            } */}
+
+            <p>Blog Post</p>
+            <hr />
+            <BlogPost></BlogPost>
         </div>
 
     )
