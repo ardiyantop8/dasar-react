@@ -3,10 +3,21 @@ import React, {Component} from 'react';
 import '../../components/YoutubeComp/YouTubeComp.css';
 // import img1 from '../../assets/2.jpg';
 // import img2 from '../../assets/react.png';
-import Product from '../Product/Product';
+// import Product from '../Product/Product';
+import LifeCycleComp from '../LifeCycleComp/LifeCycleComp';
 
 
 class Home extends Component {
+  state = {
+    showComponent:true
+  }
+  componentDidMount() {
+    // setTimeout(() => {
+    //   this.setState ({
+    //     showComponent:false
+    //   })
+    // }, 15000)  /*untuk menghilangkan component dengna componentWillUnmount */
+  }
   render() {
       return (
         <div className=" mx-2 bg-slate-100 ">
@@ -18,9 +29,15 @@ class Home extends Component {
             <YouTubeComp time="8:16" title="Tutorial React JS - Bagian 4" desc="500 x ditonton 3 hari lalu" img={img1}/>
             <YouTubeComp  img={img2}/> */}
             
-            <p>Counter</p>
+            {/* <p>Counter</p>
             <hr />
-            <Product/>
+            <Product/> */}
+            <p>Life Cycle Component</p>
+            <hr />
+            {
+              this.state.showComponent ?
+              <LifeCycleComp></LifeCycleComp> : null
+            }
         </div>
 
     )
